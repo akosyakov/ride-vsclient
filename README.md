@@ -1,13 +1,12 @@
-# README
-## This is the README for your extension "ride-client"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+Setup:
+1. Clone the repository;
+2. go to the repository's folder;
+3. run 'npm install' to download dependencies;
+4. create lib/ride-languageserver.jar symlink that points to the executable RIDE rlang jar;
+    mkdir lib
+    cd lib
+    ln -s $RIDE_RLANG_JAR_PATH ride-languageserver.jar
+    cd ..
+5. run 'code .' to start vscode;
+6. press F5 to run the extension. 
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
